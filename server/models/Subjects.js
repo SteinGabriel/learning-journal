@@ -16,7 +16,7 @@ SubjectsSchema.methods.toJSON = function() {
     _id: this._id,
     title: this.title,
     parent_id: this.parent_id,
-    article_id: this.article_id
+    article_id: this.article_id,
     createdAt: this.createdAt,
     updatedAt: this.updatedAt
   }
