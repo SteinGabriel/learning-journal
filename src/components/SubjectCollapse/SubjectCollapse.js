@@ -1,5 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
 
-export default name => {
-  return <div>{name}</div>
+const Container = styled.div`
+  height: 45px;
+  width: 100% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+export default props => {
+  return <Container>{props.name}</Container>
 }
