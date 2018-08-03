@@ -1,31 +1,38 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Collapsible from 'react-collapsible'
+import './style.css'
 
 const Container = styled.section`
   height: 100vh;
   width: 200px;
+  background-color: #212121;
+  color: #fff;
   display: flex;
-  border-right: 1px solid black;
+  padding-top: 5px;
+  flex-direction: column;
+  border-right: 1px solid gray;
 `
+
+const techs = ['Javascript', 'ReactJS', 'Node.js', 'Redux']
 
 export default class SideBar extends Component {
   render() {
     return (
       <Container>
-        <ui>
-          <li>
-            <a href="#">test1</a>
-            <ul>
-              <li>test1 1</li>
-              <li>test1 2</li>
-              <li>test1 3</li>
-              <li>test1 4</li>
-            </ul>
-          </li>
-          <li>test2</li>
-          <li>test3</li>
-          <li>test4</li>
-        </ui>
+        {techs.map(tech => {
+          return (
+            <Collapsible
+              contentOuterClassName="outer-content"
+              triggerClassName="trigger-element"
+              triggerOpenedClassName="trigger-opened-element"
+              trigger={tech}
+            >
+              <p>test</p>
+              <p>test</p>
+            </Collapsible>
+          )
+        })}
       </Container>
     )
   }
