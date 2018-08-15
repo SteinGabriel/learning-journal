@@ -12,9 +12,23 @@ const Container = styled.section`
 `
 
 const Content = styled.div`
-  max-height: 100vh;
+  max-width: 100vw;
   padding: 50px;
   overflow: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+`
+
+const Title = styled.h1`
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  margin-bottom: 30px;
+`
+
+const Paragraph = styled.p`
+  margin-bottom: 15px;
+  font-family: Adamina;
 `
 
 class Article extends Component {
@@ -22,186 +36,187 @@ class Article extends Component {
     return (
       <Container>
         <Content>
-          <p>
+          <Title>Title Example</Title>
+          <Paragraph>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, amet
             quia in dolor magni soluta deserunt qui hic illum voluptates
             explicabo enim neque sed error iure earum nihil dolorum?
             Repellendus.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Suscipit, dolorem id exercitationem molestiae possimus reprehenderit
             dolores excepturi consequatur voluptas deleniti quibusdam quod eius
             delectus repudiandae minima eum perspiciatis, accusantium blanditiis
             alias, sit necessitatibus impedit illo. Explicabo, velit harum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nam sit labore iure expedita repellat veritatis mollitia similique
             blanditiis ipsa quod ea, ut consequatur odio in non voluptatem sed
             officiis veniam odit. Qui, sunt esse. Cupiditate dolores omnis
             nostrum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nulla enim cum perspiciatis amet sequi libero rerum nihil eveniet
             ipsam aut fuga dignissimos, molestias, totam nisi consequatur
             molestiae soluta! Dolorem provident deserunt distinctio
             reprehenderit assumenda nesciunt ad perferendis suscipit?
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Enim sint quis illo animi minima dolores possimus quas laborum,
             quibusdam non voluptatibus mollitia facere et! Sunt laborum
             explicabo velit qui quos labore reprehenderit ipsum est, facere
             quas, odit repellat!
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, amet
             quia in dolor magni soluta deserunt qui hic illum voluptates
             explicabo enim neque sed error iure earum nihil dolorum?
             Repellendus.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Suscipit, dolorem id exercitationem molestiae possimus reprehenderit
             dolores excepturi consequatur voluptas deleniti quibusdam quod eius
             delectus repudiandae minima eum perspiciatis, accusantium blanditiis
             alias, sit necessitatibus impedit illo. Explicabo, velit harum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nam sit labore iure expedita repellat veritatis mollitia similique
             blanditiis ipsa quod ea, ut consequatur odio in non voluptatem sed
             officiis veniam odit. Qui, sunt esse. Cupiditate dolores omnis
             nostrum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nulla enim cum perspiciatis amet sequi libero rerum nihil eveniet
             ipsam aut fuga dignissimos, molestias, totam nisi consequatur
             molestiae soluta! Dolorem provident deserunt distinctio
             reprehenderit assumenda nesciunt ad perferendis suscipit?
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Enim sint quis illo animi minima dolores possimus quas laborum,
             quibusdam non voluptatibus mollitia facere et! Sunt laborum
             explicabo velit qui quos labore reprehenderit ipsum est, facere
             quas, odit repellat!
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, amet
             quia in dolor magni soluta deserunt qui hic illum voluptates
             explicabo enim neque sed error iure earum nihil dolorum?
             Repellendus.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Suscipit, dolorem id exercitationem molestiae possimus reprehenderit
             dolores excepturi consequatur voluptas deleniti quibusdam quod eius
             delectus repudiandae minima eum perspiciatis, accusantium blanditiis
             alias, sit necessitatibus impedit illo. Explicabo, velit harum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nam sit labore iure expedita repellat veritatis mollitia similique
             blanditiis ipsa quod ea, ut consequatur odio in non voluptatem sed
             officiis veniam odit. Qui, sunt esse. Cupiditate dolores omnis
             nostrum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nulla enim cum perspiciatis amet sequi libero rerum nihil eveniet
             ipsam aut fuga dignissimos, molestias, totam nisi consequatur
             molestiae soluta! Dolorem provident deserunt distinctio
             reprehenderit assumenda nesciunt ad perferendis suscipit?
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Enim sint quis illo animi minima dolores possimus quas laborum,
             quibusdam non voluptatibus mollitia facere et! Sunt laborum
             explicabo velit qui quos labore reprehenderit ipsum est, facere
             quas, odit repellat!
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, amet
             quia in dolor magni soluta deserunt qui hic illum voluptates
             explicabo enim neque sed error iure earum nihil dolorum?
             Repellendus.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Suscipit, dolorem id exercitationem molestiae possimus reprehenderit
             dolores excepturi consequatur voluptas deleniti quibusdam quod eius
             delectus repudiandae minima eum perspiciatis, accusantium blanditiis
             alias, sit necessitatibus impedit illo. Explicabo, velit harum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nam sit labore iure expedita repellat veritatis mollitia similique
             blanditiis ipsa quod ea, ut consequatur odio in non voluptatem sed
             officiis veniam odit. Qui, sunt esse. Cupiditate dolores omnis
             nostrum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nulla enim cum perspiciatis amet sequi libero rerum nihil eveniet
             ipsam aut fuga dignissimos, molestias, totam nisi consequatur
             molestiae soluta! Dolorem provident deserunt distinctio
             reprehenderit assumenda nesciunt ad perferendis suscipit?
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Enim sint quis illo animi minima dolores possimus quas laborum,
             quibusdam non voluptatibus mollitia facere et! Sunt laborum
             explicabo velit qui quos labore reprehenderit ipsum est, facere
             quas, odit repellat!
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, amet
             quia in dolor magni soluta deserunt qui hic illum voluptates
             explicabo enim neque sed error iure earum nihil dolorum?
             Repellendus.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Suscipit, dolorem id exercitationem molestiae possimus reprehenderit
             dolores excepturi consequatur voluptas deleniti quibusdam quod eius
             delectus repudiandae minima eum perspiciatis, accusantium blanditiis
             alias, sit necessitatibus impedit illo. Explicabo, velit harum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nam sit labore iure expedita repellat veritatis mollitia similique
             blanditiis ipsa quod ea, ut consequatur odio in non voluptatem sed
             officiis veniam odit. Qui, sunt esse. Cupiditate dolores omnis
             nostrum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nulla enim cum perspiciatis amet sequi libero rerum nihil eveniet
             ipsam aut fuga dignissimos, molestias, totam nisi consequatur
             molestiae soluta! Dolorem provident deserunt distinctio
             reprehenderit assumenda nesciunt ad perferendis suscipit?
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Enim sint quis illo animi minima dolores possimus quas laborum,
             quibusdam non voluptatibus mollitia facere et! Sunt laborum
             explicabo velit qui quos labore reprehenderit ipsum est, facere
             quas, odit repellat!
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, amet
             quia in dolor magni soluta deserunt qui hic illum voluptates
             explicabo enim neque sed error iure earum nihil dolorum?
             Repellendus.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Suscipit, dolorem id exercitationem molestiae possimus reprehenderit
             dolores excepturi consequatur voluptas deleniti quibusdam quod eius
             delectus repudiandae minima eum perspiciatis, accusantium blanditiis
             alias, sit necessitatibus impedit illo. Explicabo, velit harum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nam sit labore iure expedita repellat veritatis mollitia similique
             blanditiis ipsa quod ea, ut consequatur odio in non voluptatem sed
             officiis veniam odit. Qui, sunt esse. Cupiditate dolores omnis
             nostrum.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Nulla enim cum perspiciatis amet sequi libero rerum nihil eveniet
             ipsam aut fuga dignissimos, molestias, totam nisi consequatur
             molestiae soluta! Dolorem provident deserunt distinctio
             reprehenderit assumenda nesciunt ad perferendis suscipit?
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             Enim sint quis illo animi minima dolores possimus quas laborum,
             quibusdam non voluptatibus mollitia facere et! Sunt laborum
             explicabo velit qui quos labore reprehenderit ipsum est, facere
             quas, odit repellat!
-          </p>
+          </Paragraph>
         </Content>
       </Container>
     )

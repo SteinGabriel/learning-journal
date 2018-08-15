@@ -11,11 +11,11 @@ const Container = styled.section`
 `
 
 const subjects = [
-  { title: 'Javascript', parent_id: 0, article_id: 0 },
-  { title: 'HTML', parent_id: 0, article_id: 0 },
-  { title: 'CSS', parent_id: 0, article_id: 0 },
-  { title: 'Redux', parent_id: 0, article_id: 0 },
-  { title: 'Typescript', parent_id: 0, article_id: 0 }
+  { id: 1, title: 'Javascript', parent_id: 0, article_id: 0 },
+  { id: 2, title: 'HTML', parent_id: 0, article_id: 0 },
+  { id: 3, title: 'CSS', parent_id: 0, article_id: 0 },
+  { id: 4, title: 'Redux', parent_id: 0, article_id: 0 },
+  { id: 5, title: 'Typescript', parent_id: 0, article_id: 0 }
 ]
 
 // List of all subjects
@@ -24,7 +24,7 @@ class Subjects extends Component {
     return (
       <Container>
         {subjects.map(subject => (
-          <Subject title={subject.title} />
+          <Subject key={subjects.id} title={subject.title} />
         ))}
       </Container>
     )
