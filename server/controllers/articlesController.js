@@ -12,7 +12,7 @@ const onGet = (req = null, res, next) => {
       .catch(next)
   } else {
     return res.json({
-      article: req.article.toJSON() // does it finds automatically?
+      article: req.article.toJSON()
     })
   }
 }
