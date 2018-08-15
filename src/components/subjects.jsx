@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Subject from './subject'
 
 const Container = styled.section`
   max-width: 240px;
@@ -7,15 +8,6 @@ const Container = styled.section`
   width: 20%;
   height: 100vh
   border-right: 1px solid rgba(0,0,0,0.125)
-`
-
-const Subject = styled.div`
-  display: flex;
-  align-items: center;
-  color: gray;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  padding-top: 5px;
-  padding-bottom: 5px;
 `
 
 const subjects = [
@@ -32,9 +24,7 @@ class Subjects extends Component {
     return (
       <Container>
         {subjects.map(subject => (
-          <Subject>
-            <p style={{ marginLeft: 20 }}>{subject.title}</p>
-          </Subject>
+          <Subject title={subject.title} />
         ))}
       </Container>
     )
