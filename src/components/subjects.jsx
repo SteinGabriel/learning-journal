@@ -4,7 +4,7 @@ import Subject from './subject'
 
 const Container = styled.section`
   max-width: 240px;
-  min-width: 90px;
+  min-width: 100px;
   width: 20%;
   height: 100vh
   border-right: 1px solid rgba(0,0,0,0.125)
