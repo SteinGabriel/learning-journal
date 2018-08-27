@@ -1,0 +1,28 @@
+:root {
+  --primary-color: '#D7EFEE';
+}
+
+.subject-container {
+  height: 30px;
+  max-height: 30px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 2px solid rgba(237, 237, 237, 0.125);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 1px;
+}
+
+.subject-container button {
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 0.6rem 0;
+  display: inline-block;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.subject-title {
+  margin-left: 20px;
+  font-weight: 500;
+}

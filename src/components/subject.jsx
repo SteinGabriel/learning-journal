@@ -1,23 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import './styles/common.css'
 
 const Container = styled.div`
   height: auto;
   align-items: center;
-  color: gray;
-`
-
-const TitleContainer = styled.div`
-  height: 30px;
-  max-height: 30px !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  padding-bottom: 5px;
-  padding-top: 5px;
-`
-
-const Title = styled.p`
-  margin-left: 20px;
+  color: rgb(35, 35, 35);
 `
 
 const ArticlesContainer = styled.div`
@@ -46,11 +34,12 @@ class Subject extends Component {
     const { title, parentId, articleId } = this.props
     return (
       <Container>
-        <TitleContainer
+        <div
+          className="subject-container"
           onClick={() => this.setState({ hidden: !this.state.hidden })}
         >
-          <Title>{title}</Title>
-        </TitleContainer>
+          <p className="subject-title">{title}</p>
+        </div>
         <ArticlesContainer hidden={this.state.hidden}>
           {articles.map(article => (
             <Article key={articles.id}>{article.title}</Article>

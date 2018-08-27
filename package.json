@@ -9,12 +9,15 @@
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
-    "styled-components": "^3.3.3"
+    "styled-components": "^3.3.3",
+    "ts-loader": "^4.5.0",
+    "webpack": "^4.17.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "magic": "webpack"
   }
 }
